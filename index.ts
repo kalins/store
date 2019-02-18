@@ -1,5 +1,5 @@
 export * from './src/dispatcher';
-export * from './src/ng2';
+export * from './src/ng1';
 export * from './src/reducer';
 export * from './src/state';
 export * from './src/store';

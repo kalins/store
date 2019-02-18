@@ -1,15 +1,15 @@
-import { BehaviorSubject } from 'rxjs/BehaviorSubject';
+import { Subject } from 'rxjs/Subject';
 
 export interface Action {
   type: string;
   payload?: any;
 }
 
-export class Dispatcher extends BehaviorSubject<Action> {
+export class Dispatcher extends Subject<Action> {
   static INIT = '@ngrx/store/init';
 
   constructor() {
-    super({ type: Dispatcher.INIT });
+    super();
   }
 
   dispatch(action: Action): void {

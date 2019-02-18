@@ -1,9 +1,9 @@
-import { select, SelectSignature } from '@ngrx/core';
 import { Observer } from 'rxjs/Observer';
 import { Observable } from 'rxjs/Observable';
 import { Subscriber } from 'rxjs/Subscriber';
 import { Operator } from 'rxjs/Operator';
 
+import { select, SelectSignature } from './utils';
 import { Action } from './dispatcher';
 import { State } from './state';
 import { ActionReducer } from './reducer';

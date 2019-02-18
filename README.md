@@ -26,7 +26,7 @@ throughout your application.
 ### Installation
 Install @ngrx/core and @ngrx/store from npm:
 ```bash
-npm install @ngrx/core @ngrx/store@2.2.3 --save
+npm install  @ngrx/store@2.2.4 --save
 ```
 
 Optional packages:
